@@ -3,6 +3,7 @@
 
 Carousels are essentially slideshows used to cycle through a series of content. Today, we'll be building a very simple one to cycle through a set of images using HTML/CSS/JavaScript.
 
+
 ## Setup
 Starter code has been provided for you with all the files and images you need, all already linked togather.
 1. Fork and clone the repo.
@@ -33,7 +34,7 @@ Before we can move onto the JavaScript file to give our carousel buttons some fu
       //stuff will go her   
     })
     ```
-    
+
 1. Keep track of what image is currently showing by setting a global index counter variable:
   `let currentImgIndex = 0;`
 1. We will have to keep track of the image that we switch from so let's make another global variable:
@@ -56,6 +57,7 @@ Before we can move onto the JavaScript file to give our carousel buttons some fu
         currentImgIndex = 0;
        } 
       ```
+
 
 #### Now let's do the same thing for the "previous" button!
 1. Add the event listener:
@@ -83,3 +85,8 @@ Before we can move onto the JavaScript file to give our carousel buttons some fu
 
 ## You Do
 :dog: Some of this code isn't quite DRY, try to dry it up!
+
+
+## Licensing
+1. All content is licensed under a CC­BY­NC­SA 4.0 license.
+2. All software code is licensed under GNU GPLv3. For commercial use or alternative licensing, please contact legal@ga.co.
