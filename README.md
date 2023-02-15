@@ -8,7 +8,7 @@ Carousels are essentially slideshows used to cycle through a series of content. 
 Starter code has been provided for you with all the files and images you need, all already linked togather.
 1. Fork and clone the repo.
 1. Open the `Corgi-Carousel/starter-code` folder in VScode to follow along and create a carousel with cute little corgis.
-1. Open the `index.html` with Live Server in your browser.
+1. Open the `index.html` in your browser using the Live Server VSCode extension.
 
 ## CSS
 Before we can move onto the JavaScript file to give our carousel buttons some functionality, we need to hide all content of the carousel except the very first one. This way, the user only sees the first image when they first load the page.
