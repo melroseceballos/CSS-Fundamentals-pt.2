@@ -43,7 +43,7 @@ Before we can move onto the JavaScript file to give our carousel buttons some fu
   `const images = document.getElementsByClassName('images');`
 1. Inside the event listener for our "next" class, set previousImgIndex to currentImgIndex, and increment      currentImgIndex by 1.
 1. Next, inside the event listener for our "next" class, select the currently showing carousel image with:  
-  `images[previousImageIndex]`
+  `images[previousImgIndex]`
 1. Hide that currently showing carousel image by tacking on `.style.display = 'none';`
 1. Show the new currentImgIndex image by using: `images[currentImgIndex].style.display = 'block'`
 
